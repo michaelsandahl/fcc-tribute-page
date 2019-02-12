@@ -2,83 +2,90 @@
 <html lang="en">
 
 <head>
+  <title>Yvon Chouinard Tribute Page</title>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-    crossorigin="anonymous">
-  <!-- Site specific CSS -->
-  <link rel="stylesheet" href="style.css">
-
-  <title>
-    <!--Tribute Page-->></title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-  <div class="container" id="main">
-    <div id="title">
-      <h1 class="text-center">Yvon Chouinard</h1>
-    </div>
-    <div id="img-div">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Tom_Frost_-_Skunkworks_-_1969.jpg/1200px-Tom_Frost_-_Skunkworks_-_1969.jpg"
-        class=img-fluid alt="Workers at Chouinard Equipment, Ltd.">
-      <!--img shoould have id="image"
-        Image should responsively resize without exceeding original size
-      Should be centered within parent element-->
-      <p id="img-caption">
-        Chouinard Equipment Company, Ventura, California, 1969. Yvon Chouinard is 3rd from the right
-      </p>
-    </div>
-    <div id="tribute-info">
-      <!--Info about the person-->
-      <h2 class="text-center">Info about Yvon Chouinard</h2>
-      <ul>
-        <li>Born november 9, 1938 in Lewiston, Maine</li>
-        <li>In 1947 family moves from Maine to Southern California</li>
-        <li>As a member of the Southern California Falconry Club in 1953 he is itroduced to rapelling and climbing</li>
-        <li>In 1957 Chouinard buys a used coal-fired forge and anvil, and teaches himself how to blacksmith in order to
-          make his own pitons for climbing</li>
-        <li>He sold pitons out of the trunk of his car for years while continuing to push climbing standards Yosemite,
-          the Canadian Rockies and Patagonia</li>
-        <li>In 1965 he started Chouinard Equipment, Ltd along with climbing partner Tom Frost</li>
-        <li>In the late 1960's he and Frost began redesigning ice climbing tools to perform better on steeper ice,
-          helping to start the modern sport of ice climbing</li>
-        <li>In 1971 and 1972, Chouinard and Frost introduced new aluminum chockstones, called Hexentrics and Stoppers,
-          ushering in &quot;clean climbing&quot;, and signaling the end of pitons.</li>
-        <li>Brought back a rugby shirt from Scotland for use as a climbing shirt, and started selling them to people
-          who wanted one. This led to the creation of his next company, Patagonia.</li>
-        <li>Patagonia pledged in 1986 to donate 1% of sales or 10% of profits (whichever was greater) to environmental
-          causes.</li>
-        <li>In the same time they were providing employees healthy food at a company cafeteria and free child care long
-          before this became the norm.</li>
-        <li>Realizing that cotton production was one of biggest pollutants, the company began using only organic cotton
-          for all its cotton clothing in 1996</li>
-        <li>In 2005 published <a href="https://www.googleadservices.com/pagead/aclk?sa=L&amp;ai=DChcSEwjun6rH4JXgAhURxmQKHVQmAiQYABAHGgJwag&amp;ohost=www.google.com&amp;cid=CAESQOD2okT8B_PlT42KcB_pCe8CCt_k8eEK8rXtojlXIyiMSqQq8cCL5Oq1kYVo6Vlv34pp0nYt3t5XL9YW4g-IAwE&amp;sig=AOD64_079rZvNhKrzcJ8QDpkVQHF1WUl5A&amp;q=&amp;ved=2ahUKEwj_06LH4JXgAhWOwcQHHb8FB7kQ0Qx6BAgPEAE&amp;adurl=" target="_blank" rel="noopener noreferrer"><em>Let
-              My People Go Surfing</em></a></li>
-        <li>In 2012 published <a href="https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=2&amp;cad=rja&amp;uact=8&amp;ved=2ahUKEwjvm5WW4ZXgAhUmxFQKHfVMADsQFjABegQIFBAB&amp;url=https%3A%2F%2Fwww.patagonia.com%2Fproduct%2Fthe-responsible-company-what-weve-learned-from-patagonias-first-forty-years-paperback-book%2FBK233.html&amp;usg=AOvVaw1FN5zps4xvypDXgsNGs1AL" target="_blank" rel="noopener noreferrer"><em>The
-              Responsible Company: What We've Learned from Patagonia's First 40 years</em></a></li>
-        <li>Received the <strong>John Muir Award</strong> from the Sierra Club in 2018</li>
-      </ul>
-      <p>You can find more information on Yvon Chouinard at <a id="tribute-link" href="https://en.wikipedia.org/wiki/Yvon_Chouinard"
-          target="_blank" rel="noopener noreferrer">Wikipedia</a> or at <a id="tribute-link" href="https://www.patagonia.com/company-history.html"
-          target="_blank" rel="noopener noreferrer">Patagonia</a>
-      </p>
+  <div id="main">
+    <header class="header container-fluid">
+      <div class="overlay"></div>
+      <div class="container text-center" id="title">
+        <h1 class="display-1">Yvon Chouinard</h1>
+        <blockquote class="blockquote">
+          <h4>"To do good, you actually have to do something"</h4>
+        </blockquote>
+        <a href="#tribute-info" class="btn btn-secondary btn-lg" role="button">Learn More</a>
+      </div>
+    </header>
+    <div class="container-fluid" id="tribute-info">
+      <div class=" text-center" id="img-div">
+        <img src="yvon-chouinard-610x406.jpg" class="img-rounded" alt="Yvon Chouinard fly fishing" id="image">
+        <p id="img-caption">Yvon Chouinard fly fishing</p>
+      </div>
+      <div class="container-fluid shadow p-3 mb-5 bg-white rounded">
+        <h2 class="text-center">Important Moments</h2>
+        <ul class="m-5 p-4 text-justify">
+          <li>Born november 9, 1938 in Lewiston, Maine</li>
+          <li>In 1947 family moves from Maine to Southern California</li>
+          <li>As a member of the Southern California Falconry Club in 1953 he is itroduced to rapelling and climbing
+          </li>
+          <li>In 1957 Chouinard buys a used coal-fired forge and anvil, and teaches himself how to blacksmith in order
+            to
+            make his own pitons for climbing</li>
+          <li>He sold pitons out of the trunk of his car for years while continuing to push climbing standards Yosemite,
+            the Canadian Rockies and Patagonia</li>
+          <li>In 1965 he started Chouinard Equipment, Ltd along with climbing partner Tom Frost</li>
+          <li>In the late 1960's he and Frost began redesigning ice climbing tools to perform better on steeper ice,
+            helping to start the modern sport of ice climbing</li>
+          <li>In 1971 and 1972, Chouinard and Frost introduced new aluminum chockstones, called Hexentrics and Stoppers,
+            ushering in &quot;clean climbing&quot;, and signaling the end of pitons.</li>
+          <li>Brought back a rugby shirt from Scotland for use as a climbing shirt, and started selling them to people
+            who
+            wanted one. This led to the creation of his next company, Patagonia.</li>
+          <li>Patagonia pledged in 1986 to donate 1% of sales or 10% of profits (whichever was greater) to environmental
+            causes.</li>
+          <li>In the same time they were providing employees healthy food at a company cafeteria and free child care
+            long
+            before this became the norm.</li>
+          <li>Realizing that cotton production was one of biggest pollutants, the company began using only organic
+            cotton
+            for all its cotton clothing in 1996</li>
+          <li>In 2005 published <a
+              href="https://www.googleadservices.com/pagead/aclk?sa=L&amp;ai=DChcSEwjun6rH4JXgAhURxmQKHVQmAiQYABAHGgJwag&amp;ohost=www.google.com&amp;cid=CAESQOD2okT8B_PlT42KcB_pCe8CCt_k8eEK8rXtojlXIyiMSqQq8cCL5Oq1kYVo6Vlv34pp0nYt3t5XL9YW4g-IAwE&amp;sig=AOD64_079rZvNhKrzcJ8QDpkVQHF1WUl5A&amp;q=&amp;ved=2ahUKEwj_06LH4JXgAhWOwcQHHb8FB7kQ0Qx6BAgPEAE&amp;adurl="><em>Let
+                My People Go Surfing</em></a></li>
+          <li>In 2012 published <a
+              href="https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=2&amp;cad=rja&amp;uact=8&amp;ved=2ahUKEwjvm5WW4ZXgAhUmxFQKHfVMADsQFjABegQIFBAB&amp;url=https%3A%2F%2Fwww.patagonia.com%2Fproduct%2Fthe-responsible-company-what-weve-learned-from-patagonias-first-forty-years-paperback-book%2FBK233.html&amp;usg=AOvVaw1FN5zps4xvypDXgsNGs1AL"><em>The
+                Responsible Company: What We've Learned from Patagonia's First 40 years</em></a></li>
+          <li>Received the <strong>John Muir Award</strong> from the Sierra Club in 2018</li>
+        </ul>
+      </div>
 
     </div>
-
-
   </div>
 
+
+
   <!-- Optional JavaScript -->
+  <!-- <script type="text/javascript" src="main.js"></script> -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
     crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
     crossorigin="anonymous"></script>
+  <!-- <script type="text/javascript" src='js/main.js'></script> -->
 </body>
 
 </html>

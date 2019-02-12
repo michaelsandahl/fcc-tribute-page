@@ -1,0 +1,21 @@
+.header {
+    background-image: url(MarYvonChou-1725x810-PAN_23852.jpg);
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* opacity: 0.8; */
+}
+
+#title {
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    color: #ffffff;
+    text-shadow: #1b1a1a 2px 2px;
+}
+#tribute-info {
+    background: #202F33;
+    padding-top: 2em;
+}

@@ -15,3 +15,5 @@
 - In 2005 published [*Let My People Go Surfing*](https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjun6rH4JXgAhURxmQKHVQmAiQYABAHGgJwag&ohost=www.google.com&cid=CAESQOD2okT8B_PlT42KcB_pCe8CCt_k8eEK8rXtojlXIyiMSqQq8cCL5Oq1kYVo6Vlv34pp0nYt3t5XL9YW4g-IAwE&sig=AOD64_079rZvNhKrzcJ8QDpkVQHF1WUl5A&q=&ved=2ahUKEwj_06LH4JXgAhWOwcQHHb8FB7kQ0Qx6BAgPEAE&adurl=)
 - In 2012 published [*The Responsible Company: What We've Learned from Patagonia's First 40 years*](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=2ahUKEwjvm5WW4ZXgAhUmxFQKHfVMADsQFjABegQIFBAB&url=https%3A%2F%2Fwww.patagonia.com%2Fproduct%2Fthe-responsible-company-what-weve-learned-from-patagonias-first-forty-years-paperback-book%2FBK233.html&usg=AOvVaw1FN5zps4xvypDXgsNGs1AL)
 - Received the __John Muir Award__ from the Sierra Club in 2018
+
+yvon
