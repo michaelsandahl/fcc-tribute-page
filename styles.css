@@ -1,21 +1,29 @@
+#main {
+    background: rgb(37, 73, 95);
+}
 .header {
-    background-image: url(MarYvonChou-1725x810-PAN_23852.jpg);
+    background-image: url(https://images.fastcompany.net/image/upload/w_1280,f_auto,q_auto,fl_lossy/wp-cms/uploads/2018/12/p-1-exclusive-patagoniaand8217s-new-company-mission-is-to-save-the-planet.jpg);
     height: 100vh;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    display: flex;
     /* opacity: 0.8; */
 }
 
 #title {
-    position: absolute;
-    top: 30%;
-    margin: auto;
-    color: #ffffff;
+    color: rgb(213, 214, 218);
     text-shadow: #1b1a1a 2px 2px;
 }
 #tribute-info {
-    background: #202F33;
+    
     padding-top: 2em;
+    color: #999A9E;
+    padding-bottom: 4em;
+}
+/* This was added just to pass the test suite from FCC which did not like the img-fluid class which does the same thing */
+#image {
+    display: block;
+    margin: auto;
 }
