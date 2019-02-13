@@ -1,6 +1,8 @@
 
 # Responsive Web Design Projects - Build a Tribute Page
 
+This was the first project for the FCC Responsive Web Design Certification
+
 ## Objective
 
 Build a CodePen.io app that is functionally similar to this: [CodePen](https://codepen.io/freeCodeCamp/full/zNqgVx.)
